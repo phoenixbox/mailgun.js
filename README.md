@@ -1025,7 +1025,7 @@ Unsubscribes Options: Contains an array with the following object properties
 | Parameter  | Description                                                                                                      |
 |:-----------|:-----------------------------------------------------------------------------------------------------------------|
 | address    | Valid email address                                                                                              |
-| tag        | Tag to unsubscribe from, use * to unsubscribe an address from all domain’s correspondence (optional, default: *) |
+| tags       | Collection of tags to unsubscribe from, use [*] to unsubscribe an address from all domain’s correspondence (optional, default: [*]) |
 | created_at | Timestamp of a bounce event in RFC2822 format (optional, default: current time)                                  |
 
 Promise Returns:
